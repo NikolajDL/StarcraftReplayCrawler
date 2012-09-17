@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SimpleReplaySource>
+  <SourceName>GosuGamers.net.BroodWar</SourceName>
+  <SourceUrl><![CDATA[http://www.gosugamers.net/starcraft/replays.php?&start={0}]]></SourceUrl>
+  <GameType>Starcraft</GameType>
+  <SourceReplayUrlXPathSearch>
+    <![CDATA[//a[contains(@href,'admin/a_replays.php') and contains(@href,'dl')]]]>
+  </SourceReplayUrlXPathSearch>
+  <IsPaged>True</IsPaged>
+  <PageQueryFormat></PageQueryFormat>
+  <ReplayIDQueryKey>dl</ReplayIDQueryKey>
+  <DownloadUrlFormat><![CDATA[http://www.gosugamers.net/starcraft/admin/a_replays.php?dl={0}]]></DownloadUrlFormat>
+  <DownloadUrlPrefix><![CDATA[http://www.gosugamers.net/starcraft/]]></DownloadUrlPrefix>
+  <PageFunction>StartIndexPaging</PageFunction>
+  <Pages>80</Pages>
+  <PageSize>100</PageSize>
+</SimpleReplaySource>

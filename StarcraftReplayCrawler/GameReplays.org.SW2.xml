@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SimpleReplaySource>
+  <SourceName>GameReplays.org.SW2</SourceName>
+  <SourceUrl><![CDATA[
+  http://www.gamereplays.org/starcraft2/replays.php?game=33&show=expert_replays&st={0}
+  ]]></SourceUrl>
+  <GameType>StarcraftII</GameType>
+  <SourceReplayUrlXPathSearch>
+    <![CDATA[
+	//a[contains(@href,'www.gamereplays.org/starcraft2/replays.php') 
+	and contains(@href,'download') 
+	and contains(@href,'game=33')]
+	]]>
+  </SourceReplayUrlXPathSearch>
+  <IsPaged>True</IsPaged>
+  <ReplayIDQueryKey>id</ReplayIDQueryKey>
+  <DownloadUrlFormat><![CDATA[
+  http://www.gamereplays.org/starcraft2/replays.php?game=33&show=download&&id={0}
+  ]]></DownloadUrlFormat>
+  <PageFunction>StartIndexPaging</PageFunction>
+  <Pages>112</Pages>
+  <PageSize>30</PageSize>
+</SimpleReplaySource>

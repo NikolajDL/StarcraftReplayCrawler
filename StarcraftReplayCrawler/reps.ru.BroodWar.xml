@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SimpleReplaySource>
+  <SourceName>reps.ru.BroodWar</SourceName>
+  <SourceUrl><![CDATA[http://reps.ru/replays.php?type=duel&page={0}]]></SourceUrl>
+  <GameType>Starcraft</GameType>
+  <SourceReplayUrlXPathSearch>
+    <![CDATA[//a[contains(@href,'replays.php') and contains(@href,'replay=comment')]]]>
+  </SourceReplayUrlXPathSearch>
+  <IsPaged>True</IsPaged>
+  <PageQueryFormat></PageQueryFormat>
+  <ReplayIDQueryKey>id</ReplayIDQueryKey>
+  <DownloadUrlFormat><![CDATA[http://reps.ru/replays.php?replay=get&id={0}]]></DownloadUrlFormat>
+  <DownloadUrlPrefix><![CDATA[http://reps.ru/]]></DownloadUrlPrefix>
+  <PageFunction>IncrementalPaging</PageFunction>
+  <Pages>130</Pages>
+</SimpleReplaySource>

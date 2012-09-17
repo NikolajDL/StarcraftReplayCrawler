@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarcraftReplayCrawler", "StarcraftReplayCrawler\StarcraftReplayCrawler.csproj", "{8E3BAE8E-6439-4BFD-A4FE-82DBBEC61D05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarcraftReplayCollector", "StarcraftReplayCollector\StarcraftReplayCollector.csproj", "{C1ED1E37-6DAB-4BEE-8966-3DD230920C34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3BAE8E-6439-4BFD-A4FE-82DBBEC61D05}.Debug|x86.ActiveCfg = Debug|x86
+		{8E3BAE8E-6439-4BFD-A4FE-82DBBEC61D05}.Debug|x86.Build.0 = Debug|x86
+		{8E3BAE8E-6439-4BFD-A4FE-82DBBEC61D05}.Release|x86.ActiveCfg = Release|x86
+		{8E3BAE8E-6439-4BFD-A4FE-82DBBEC61D05}.Release|x86.Build.0 = Release|x86
+		{C1ED1E37-6DAB-4BEE-8966-3DD230920C34}.Debug|x86.ActiveCfg = Debug|x86
+		{C1ED1E37-6DAB-4BEE-8966-3DD230920C34}.Debug|x86.Build.0 = Debug|x86
+		{C1ED1E37-6DAB-4BEE-8966-3DD230920C34}.Release|x86.ActiveCfg = Release|x86
+		{C1ED1E37-6DAB-4BEE-8966-3DD230920C34}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
